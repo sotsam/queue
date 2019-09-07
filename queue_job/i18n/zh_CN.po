@@ -6,15 +6,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-07-25 17:43+0000\n"
+"PO-Revision-Date: 2019-08-31 16:23+0000\n"
 "Last-Translator: 黎伟杰 <674416404@qq.com>\n"
 "Language-Team: none\n"
-"Language: zh_Hans\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.7.1\n"
+"X-Generator: Weblate 3.8\n"
 
 #. module: queue_job
 #: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_form
@@ -39,7 +39,7 @@ msgstr "活动状态"
 #. module: queue_job
 #: model:ir.model.fields,field_description:queue_job.field_queue_job__args
 msgid "Args"
-msgstr "参数"
+msgstr "位置参数"
 
 #. module: queue_job
 #: model:ir.model.fields,field_description:queue_job.field_queue_job__message_attachment_count
@@ -123,7 +123,7 @@ msgstr "创建日期"
 #: model:ir.model.fields,field_description:queue_job.field_queue_jobs_to_done__create_uid
 #: model:ir.model.fields,field_description:queue_job.field_queue_requeue_job__create_uid
 msgid "Created by"
-msgstr "创建人"
+msgstr "创建者"
 
 #. module: queue_job
 #: model:ir.model.fields,field_description:queue_job.field_queue_job_channel__create_date
@@ -191,7 +191,7 @@ msgstr "异常信息"
 #. module: queue_job
 #: model:ir.model.fields,field_description:queue_job.field_queue_job__eta
 msgid "Execute only after"
-msgstr "在此之后执行"
+msgstr "仅在此之后执行"
 
 #. module: queue_job
 #: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_search
